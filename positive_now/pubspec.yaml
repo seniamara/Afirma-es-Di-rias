@@ -1,0 +1,36 @@
+name: positive_now
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  firebase_auth: ^6.2.0
+  cloud_firestore: ^6.1.3
+  provider: ^6.1.5+1
+  shared_preferences: ^2.5.4
+  intl: ^0.20.2
+  fl_chart: ^1.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  
+  # 🔥 IMPORTANTE: Adicionar os assets de tradução
+  assets:
+    - assets/translations/pt.json
+    - assets/translations/en.json
+    - assets/translations/de.json
+    - assets/translations/fr.json
