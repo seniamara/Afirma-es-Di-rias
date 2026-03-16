@@ -105,7 +105,7 @@ static const Color lightBackground = Color(0xFFF5F5F5); // Fundo claro
 
 1. **Clone o repositório**
 ```bash
-git clone https://github.com/seu-usuario/positive_now.git
+git clone https://github.com/seniamara/Afirma-es-Di-rias.git
 cd positive_now
 ```
 
